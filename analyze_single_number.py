@@ -48,6 +48,7 @@ def analyze_collatz_with_lyapunov(start_num):
     based on the change in the Omega metric.
     """
     current_num = start_num
+    step_count = 0
     omega_values_for_lyapunov = []
     
     print(f"--- Analysis for starting number: {start_num} ---")
@@ -59,6 +60,7 @@ def analyze_collatz_with_lyapunov(start_num):
         
         # This is an odd number, calculate Omega and the next odd number
         omega_n = get_omega(current_num)
+        step_count += 1
         
         # Determine the next odd number in the sequence
         next_num = (3 * current_num + 1)
@@ -86,7 +88,7 @@ def analyze_collatz_with_lyapunov(start_num):
         else:
             decomposition_str += factors_str if factors else '1'
         
-        print(f"\nStep: Current odd number (n): {current_num} (Ω={omega_n})")
+        print(f"\nStep{step_count}: Current odd number (n): {current_num} (Ω={omega_n})")
         print(f"  - Decomposition of n: {current_num} = {decomposition_str}")
         print(f"  - Next odd number (n'): {next_num} (Ω={omega_next_num})")
         print(f"  - Ω-Trend: {omega_trend}")
@@ -112,6 +114,6 @@ def analyze_collatz_with_lyapunov(start_num):
         print(f"\nNo odd steps for {start_num} (already 1 reached).")
         
 if __name__ == '__main__':
-    start_range = 703
+    start_range = 9500001
     analyze_collatz_with_lyapunov(start_range)
     print("\nAnalysis complete.")
