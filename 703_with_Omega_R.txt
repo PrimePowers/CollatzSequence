@@ -1,854 +1,321 @@
 --- Analysis for starting number: 703 ---
 
-Step 1: Current number (n): 703
-  - Ω(n): 1
+Step: Current odd number (n): 703 (Ω=1)
   - Decomposition of n: 703 = 512 + 191
-  - Collatz step: 3 * 703 + 1 = 2110
+  - Next odd number (n'): 1055 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 2: Current number (n): 2110
-  - Ω(n): 0
-  - Decomposition of n: 2110 = Even number, no additive decomposition applied
-  - Collatz step: 2110 / 2 = 1055
-
-Step 3: Current number (n): 1055
-  - Ω(n): 1
+Step: Current odd number (n): 1055 (Ω=1)
   - Decomposition of n: 1055 = 1024 + 31
-  - Collatz step: 3 * 1055 + 1 = 3166
+  - Next odd number (n'): 1583 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 4: Current number (n): 3166
-  - Ω(n): 0
-  - Decomposition of n: 3166 = Even number, no additive decomposition applied
-  - Collatz step: 3166 / 2 = 1583
-
-Step 5: Current number (n): 1583
-  - Ω(n): 2
+Step: Current odd number (n): 1583 (Ω=2)
   - Decomposition of n: 1583 = 1024 + (13 * 43)
-  - Collatz step: 3 * 1583 + 1 = 4750
+  - Next odd number (n'): 2375 (Ω=2)
+  - Ω-Trend: Neutral
 
-Step 6: Current number (n): 4750
-  - Ω(n): 0
-  - Decomposition of n: 4750 = Even number, no additive decomposition applied
-  - Collatz step: 4750 / 2 = 2375
-
-Step 7: Current number (n): 2375
-  - Ω(n): 2
+Step: Current odd number (n): 2375 (Ω=2)
   - Decomposition of n: 2375 = 2048 + (3 * 109)
-  - Collatz step: 3 * 2375 + 1 = 7126
+  - Next odd number (n'): 3563 (Ω=3)
+  - Ω-Trend: Upward
 
-Step 8: Current number (n): 7126
-  - Ω(n): 0
-  - Decomposition of n: 7126 = Even number, no additive decomposition applied
-  - Collatz step: 7126 / 2 = 3563
-
-Step 9: Current number (n): 3563
-  - Ω(n): 3
+Step: Current odd number (n): 3563 (Ω=3)
   - Decomposition of n: 3563 = 2048 + (3 * 5 * 101)
-  - Collatz step: 3 * 3563 + 1 = 10690
+  - Next odd number (n'): 5345 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 10: Current number (n): 10690
-  - Ω(n): 0
-  - Decomposition of n: 10690 = Even number, no additive decomposition applied
-  - Collatz step: 10690 / 2 = 5345
-
-Step 11: Current number (n): 5345
-  - Ω(n): 1
+Step: Current odd number (n): 5345 (Ω=1)
   - Decomposition of n: 5345 = 4096 + 1249
-  - Collatz step: 3 * 5345 + 1 = 16036
+  - Next odd number (n'): 4009 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 12: Current number (n): 16036
-  - Ω(n): 0
-  - Decomposition of n: 16036 = Even number, no additive decomposition applied
-  - Collatz step: 16036 / 2 = 8018
-
-Step 13: Current number (n): 8018
-  - Ω(n): 0
-  - Decomposition of n: 8018 = Even number, no additive decomposition applied
-  - Collatz step: 8018 / 2 = 4009
-
-Step 14: Current number (n): 4009
-  - Ω(n): 2
+Step: Current odd number (n): 4009 (Ω=2)
   - Decomposition of n: 4009 = 2048 + (37 * 53)
-  - Collatz step: 3 * 4009 + 1 = 12028
+  - Next odd number (n'): 3007 (Ω=2)
+  - Ω-Trend: Neutral
 
-Step 15: Current number (n): 12028
-  - Ω(n): 0
-  - Decomposition of n: 12028 = Even number, no additive decomposition applied
-  - Collatz step: 12028 / 2 = 6014
-
-Step 16: Current number (n): 6014
-  - Ω(n): 0
-  - Decomposition of n: 6014 = Even number, no additive decomposition applied
-  - Collatz step: 6014 / 2 = 3007
-
-Step 17: Current number (n): 3007
-  - Ω(n): 2
+Step: Current odd number (n): 3007 (Ω=2)
   - Decomposition of n: 3007 = 2048 + (7 * 137)
-  - Collatz step: 3 * 3007 + 1 = 9022
+  - Next odd number (n'): 4511 (Ω=2)
+  - Ω-Trend: Neutral
 
-Step 18: Current number (n): 9022
-  - Ω(n): 0
-  - Decomposition of n: 9022 = Even number, no additive decomposition applied
-  - Collatz step: 9022 / 2 = 4511
-
-Step 19: Current number (n): 4511
-  - Ω(n): 2
+Step: Current odd number (n): 4511 (Ω=2)
   - Decomposition of n: 4511 = 4096 + (5 * 83)
-  - Collatz step: 3 * 4511 + 1 = 13534
+  - Next odd number (n'): 6767 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 20: Current number (n): 13534
-  - Ω(n): 0
-  - Decomposition of n: 13534 = Even number, no additive decomposition applied
-  - Collatz step: 13534 / 2 = 6767
-
-Step 21: Current number (n): 6767
-  - Ω(n): 1
+Step: Current odd number (n): 6767 (Ω=1)
   - Decomposition of n: 6767 = 4096 + 2671
-  - Collatz step: 3 * 6767 + 1 = 20302
+  - Next odd number (n'): 10151 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 22: Current number (n): 20302
-  - Ω(n): 0
-  - Decomposition of n: 20302 = Even number, no additive decomposition applied
-  - Collatz step: 20302 / 2 = 10151
-
-Step 23: Current number (n): 10151
-  - Ω(n): 2
+Step: Current odd number (n): 10151 (Ω=2)
   - Decomposition of n: 10151 = 8192 + (3 * 653)
-  - Collatz step: 3 * 10151 + 1 = 30454
+  - Next odd number (n'): 15227 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 24: Current number (n): 30454
-  - Ω(n): 0
-  - Decomposition of n: 30454 = Even number, no additive decomposition applied
-  - Collatz step: 30454 / 2 = 15227
-
-Step 25: Current number (n): 15227
-  - Ω(n): 4
+Step: Current odd number (n): 15227 (Ω=4)
   - Decomposition of n: 15227 = 8192 + (3 * 5 * 7 * 67)
-  - Collatz step: 3 * 15227 + 1 = 45682
+  - Next odd number (n'): 22841 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 26: Current number (n): 45682
-  - Ω(n): 0
-  - Decomposition of n: 45682 = Even number, no additive decomposition applied
-  - Collatz step: 45682 / 2 = 22841
-
-Step 27: Current number (n): 22841
-  - Ω(n): 2
+Step: Current odd number (n): 22841 (Ω=2)
   - Decomposition of n: 22841 = 16384 + (11 * 587)
-  - Collatz step: 3 * 22841 + 1 = 68524
+  - Next odd number (n'): 17131 (Ω=3)
+  - Ω-Trend: Upward
 
-Step 28: Current number (n): 68524
-  - Ω(n): 0
-  - Decomposition of n: 68524 = Even number, no additive decomposition applied
-  - Collatz step: 68524 / 2 = 34262
-
-Step 29: Current number (n): 34262
-  - Ω(n): 0
-  - Decomposition of n: 34262 = Even number, no additive decomposition applied
-  - Collatz step: 34262 / 2 = 17131
-
-Step 30: Current number (n): 17131
-  - Ω(n): 3
+Step: Current odd number (n): 17131 (Ω=3)
   - Decomposition of n: 17131 = 16384 + (3 * 3 * 83)
-  - Collatz step: 3 * 17131 + 1 = 51394
+  - Next odd number (n'): 25697 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 31: Current number (n): 51394
-  - Ω(n): 0
-  - Decomposition of n: 51394 = Even number, no additive decomposition applied
-  - Collatz step: 51394 / 2 = 25697
-
-Step 32: Current number (n): 25697
-  - Ω(n): 2
+Step: Current odd number (n): 25697 (Ω=2)
   - Decomposition of n: 25697 = 16384 + (67 * 139)
-  - Collatz step: 3 * 25697 + 1 = 77092
+  - Next odd number (n'): 19273 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 33: Current number (n): 77092
-  - Ω(n): 0
-  - Decomposition of n: 77092 = Even number, no additive decomposition applied
-  - Collatz step: 77092 / 2 = 38546
-
-Step 34: Current number (n): 38546
-  - Ω(n): 0
-  - Decomposition of n: 38546 = Even number, no additive decomposition applied
-  - Collatz step: 38546 / 2 = 19273
-
-Step 35: Current number (n): 19273
-  - Ω(n): 4
+Step: Current odd number (n): 19273 (Ω=4)
   - Decomposition of n: 19273 = 16384 + (3 * 3 * 3 * 107)
-  - Collatz step: 3 * 19273 + 1 = 57820
+  - Next odd number (n'): 14455 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 36: Current number (n): 57820
-  - Ω(n): 0
-  - Decomposition of n: 57820 = Even number, no additive decomposition applied
-  - Collatz step: 57820 / 2 = 28910
-
-Step 37: Current number (n): 28910
-  - Ω(n): 0
-  - Decomposition of n: 28910 = Even number, no additive decomposition applied
-  - Collatz step: 28910 / 2 = 14455
-
-Step 38: Current number (n): 14455
-  - Ω(n): 1
+Step: Current odd number (n): 14455 (Ω=1)
   - Decomposition of n: 14455 = 8192 + 6263
-  - Collatz step: 3 * 14455 + 1 = 43366
+  - Next odd number (n'): 21683 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 39: Current number (n): 43366
-  - Ω(n): 0
-  - Decomposition of n: 43366 = Even number, no additive decomposition applied
-  - Collatz step: 43366 / 2 = 21683
-
-Step 40: Current number (n): 21683
-  - Ω(n): 2
+Step: Current odd number (n): 21683 (Ω=2)
   - Decomposition of n: 21683 = 16384 + (7 * 757)
-  - Collatz step: 3 * 21683 + 1 = 65050
+  - Next odd number (n'): 32525 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 41: Current number (n): 65050
-  - Ω(n): 0
-  - Decomposition of n: 65050 = Even number, no additive decomposition applied
-  - Collatz step: 65050 / 2 = 32525
-
-Step 42: Current number (n): 32525
-  - Ω(n): 1
+Step: Current odd number (n): 32525 (Ω=1)
   - Decomposition of n: 32525 = 16384 + 16141
-  - Collatz step: 3 * 32525 + 1 = 97576
+  - Next odd number (n'): 12197 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 43: Current number (n): 97576
-  - Ω(n): 0
-  - Decomposition of n: 97576 = Even number, no additive decomposition applied
-  - Collatz step: 97576 / 2 = 48788
-
-Step 44: Current number (n): 48788
-  - Ω(n): 0
-  - Decomposition of n: 48788 = Even number, no additive decomposition applied
-  - Collatz step: 48788 / 2 = 24394
-
-Step 45: Current number (n): 24394
-  - Ω(n): 0
-  - Decomposition of n: 24394 = Even number, no additive decomposition applied
-  - Collatz step: 24394 / 2 = 12197
-
-Step 46: Current number (n): 12197
-  - Ω(n): 4
+Step: Current odd number (n): 12197 (Ω=4)
   - Decomposition of n: 12197 = 8192 + (3 * 3 * 5 * 89)
-  - Collatz step: 3 * 12197 + 1 = 36592
+  - Next odd number (n'): 2287 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 47: Current number (n): 36592
-  - Ω(n): 0
-  - Decomposition of n: 36592 = Even number, no additive decomposition applied
-  - Collatz step: 36592 / 2 = 18296
-
-Step 48: Current number (n): 18296
-  - Ω(n): 0
-  - Decomposition of n: 18296 = Even number, no additive decomposition applied
-  - Collatz step: 18296 / 2 = 9148
-
-Step 49: Current number (n): 9148
-  - Ω(n): 0
-  - Decomposition of n: 9148 = Even number, no additive decomposition applied
-  - Collatz step: 9148 / 2 = 4574
-
-Step 50: Current number (n): 4574
-  - Ω(n): 0
-  - Decomposition of n: 4574 = Even number, no additive decomposition applied
-  - Collatz step: 4574 / 2 = 2287
-
-Step 51: Current number (n): 2287
-  - Ω(n): 1
+Step: Current odd number (n): 2287 (Ω=1)
   - Decomposition of n: 2287 = 2048 + 239
-  - Collatz step: 3 * 2287 + 1 = 6862
+  - Next odd number (n'): 3431 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 52: Current number (n): 6862
-  - Ω(n): 0
-  - Decomposition of n: 6862 = Even number, no additive decomposition applied
-  - Collatz step: 6862 / 2 = 3431
-
-Step 53: Current number (n): 3431
-  - Ω(n): 2
+Step: Current odd number (n): 3431 (Ω=2)
   - Decomposition of n: 3431 = 2048 + (3 * 461)
-  - Collatz step: 3 * 3431 + 1 = 10294
+  - Next odd number (n'): 5147 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 54: Current number (n): 10294
-  - Ω(n): 0
-  - Decomposition of n: 10294 = Even number, no additive decomposition applied
-  - Collatz step: 10294 / 2 = 5147
-
-Step 55: Current number (n): 5147
-  - Ω(n): 1
+Step: Current odd number (n): 5147 (Ω=1)
   - Decomposition of n: 5147 = 4096 + 1051
-  - Collatz step: 3 * 5147 + 1 = 15442
+  - Next odd number (n'): 7721 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 56: Current number (n): 15442
-  - Ω(n): 0
-  - Decomposition of n: 15442 = Even number, no additive decomposition applied
-  - Collatz step: 15442 / 2 = 7721
-
-Step 57: Current number (n): 7721
-  - Ω(n): 4
+Step: Current odd number (n): 7721 (Ω=4)
   - Decomposition of n: 7721 = 4096 + (5 * 5 * 5 * 29)
-  - Collatz step: 3 * 7721 + 1 = 23164
+  - Next odd number (n'): 5791 (Ω=3)
+  - Ω-Trend: Downward
 
-Step 58: Current number (n): 23164
-  - Ω(n): 0
-  - Decomposition of n: 23164 = Even number, no additive decomposition applied
-  - Collatz step: 23164 / 2 = 11582
-
-Step 59: Current number (n): 11582
-  - Ω(n): 0
-  - Decomposition of n: 11582 = Even number, no additive decomposition applied
-  - Collatz step: 11582 / 2 = 5791
-
-Step 60: Current number (n): 5791
-  - Ω(n): 3
+Step: Current odd number (n): 5791 (Ω=3)
   - Decomposition of n: 5791 = 4096 + (3 * 5 * 113)
-  - Collatz step: 3 * 5791 + 1 = 17374
+  - Next odd number (n'): 8687 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 61: Current number (n): 17374
-  - Ω(n): 0
-  - Decomposition of n: 17374 = Even number, no additive decomposition applied
-  - Collatz step: 17374 / 2 = 8687
-
-Step 62: Current number (n): 8687
-  - Ω(n): 4
+Step: Current odd number (n): 8687 (Ω=4)
   - Decomposition of n: 8687 = 8192 + (3 * 3 * 5 * 11)
-  - Collatz step: 3 * 8687 + 1 = 26062
+  - Next odd number (n'): 13031 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 63: Current number (n): 26062
-  - Ω(n): 0
-  - Decomposition of n: 26062 = Even number, no additive decomposition applied
-  - Collatz step: 26062 / 2 = 13031
-
-Step 64: Current number (n): 13031
-  - Ω(n): 2
+Step: Current odd number (n): 13031 (Ω=2)
   - Decomposition of n: 13031 = 8192 + (3 * 1613)
-  - Collatz step: 3 * 13031 + 1 = 39094
+  - Next odd number (n'): 19547 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 65: Current number (n): 39094
-  - Ω(n): 0
-  - Decomposition of n: 39094 = Even number, no additive decomposition applied
-  - Collatz step: 39094 / 2 = 19547
-
-Step 66: Current number (n): 19547
-  - Ω(n): 1
+Step: Current odd number (n): 19547 (Ω=1)
   - Decomposition of n: 19547 = 16384 + 3163
-  - Collatz step: 3 * 19547 + 1 = 58642
+  - Next odd number (n'): 29321 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 67: Current number (n): 58642
-  - Ω(n): 0
-  - Decomposition of n: 58642 = Even number, no additive decomposition applied
-  - Collatz step: 58642 / 2 = 29321
-
-Step 68: Current number (n): 29321
-  - Ω(n): 2
+Step: Current odd number (n): 29321 (Ω=2)
   - Decomposition of n: 29321 = 16384 + (17 * 761)
-  - Collatz step: 3 * 29321 + 1 = 87964
+  - Next odd number (n'): 21991 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 69: Current number (n): 87964
-  - Ω(n): 0
-  - Decomposition of n: 87964 = Even number, no additive decomposition applied
-  - Collatz step: 87964 / 2 = 43982
-
-Step 70: Current number (n): 43982
-  - Ω(n): 0
-  - Decomposition of n: 43982 = Even number, no additive decomposition applied
-  - Collatz step: 43982 / 2 = 21991
-
-Step 71: Current number (n): 21991
-  - Ω(n): 4
+Step: Current odd number (n): 21991 (Ω=4)
   - Decomposition of n: 21991 = 16384 + (3 * 3 * 7 * 89)
-  - Collatz step: 3 * 21991 + 1 = 65974
+  - Next odd number (n'): 32987 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 72: Current number (n): 65974
-  - Ω(n): 0
-  - Decomposition of n: 65974 = Even number, no additive decomposition applied
-  - Collatz step: 65974 / 2 = 32987
-
-Step 73: Current number (n): 32987
-  - Ω(n): 2
+Step: Current odd number (n): 32987 (Ω=2)
   - Decomposition of n: 32987 = 32768 + (3 * 73)
-  - Collatz step: 3 * 32987 + 1 = 98962
+  - Next odd number (n'): 49481 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 74: Current number (n): 98962
-  - Ω(n): 0
-  - Decomposition of n: 98962 = Even number, no additive decomposition applied
-  - Collatz step: 98962 / 2 = 49481
-
-Step 75: Current number (n): 49481
-  - Ω(n): 4
+Step: Current odd number (n): 49481 (Ω=4)
   - Decomposition of n: 49481 = 32768 + (3 * 3 * 3 * 619)
-  - Collatz step: 3 * 49481 + 1 = 148444
+  - Next odd number (n'): 37111 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 76: Current number (n): 148444
-  - Ω(n): 0
-  - Decomposition of n: 148444 = Even number, no additive decomposition applied
-  - Collatz step: 148444 / 2 = 74222
-
-Step 77: Current number (n): 74222
-  - Ω(n): 0
-  - Decomposition of n: 74222 = Even number, no additive decomposition applied
-  - Collatz step: 74222 / 2 = 37111
-
-Step 78: Current number (n): 37111
-  - Ω(n): 2
+Step: Current odd number (n): 37111 (Ω=2)
   - Decomposition of n: 37111 = 32768 + (43 * 101)
-  - Collatz step: 3 * 37111 + 1 = 111334
+  - Next odd number (n'): 55667 (Ω=3)
+  - Ω-Trend: Upward
 
-Step 79: Current number (n): 111334
-  - Ω(n): 0
-  - Decomposition of n: 111334 = Even number, no additive decomposition applied
-  - Collatz step: 111334 / 2 = 55667
-
-Step 80: Current number (n): 55667
-  - Ω(n): 3
+Step: Current odd number (n): 55667 (Ω=3)
   - Decomposition of n: 55667 = 32768 + (3 * 17 * 449)
-  - Collatz step: 3 * 55667 + 1 = 167002
+  - Next odd number (n'): 83501 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 81: Current number (n): 167002
-  - Ω(n): 0
-  - Decomposition of n: 167002 = Even number, no additive decomposition applied
-  - Collatz step: 167002 / 2 = 83501
-
-Step 82: Current number (n): 83501
-  - Ω(n): 2
+Step: Current odd number (n): 83501 (Ω=2)
   - Decomposition of n: 83501 = 65536 + (5 * 3593)
-  - Collatz step: 3 * 83501 + 1 = 250504
+  - Next odd number (n'): 31313 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 83: Current number (n): 250504
-  - Ω(n): 0
-  - Decomposition of n: 250504 = Even number, no additive decomposition applied
-  - Collatz step: 250504 / 2 = 125252
-
-Step 84: Current number (n): 125252
-  - Ω(n): 0
-  - Decomposition of n: 125252 = Even number, no additive decomposition applied
-  - Collatz step: 125252 / 2 = 62626
-
-Step 85: Current number (n): 62626
-  - Ω(n): 0
-  - Decomposition of n: 62626 = Even number, no additive decomposition applied
-  - Collatz step: 62626 / 2 = 31313
-
-Step 86: Current number (n): 31313
-  - Ω(n): 1
+Step: Current odd number (n): 31313 (Ω=1)
   - Decomposition of n: 31313 = 16384 + 14929
-  - Collatz step: 3 * 31313 + 1 = 93940
+  - Next odd number (n'): 23485 (Ω=4)
+  - Ω-Trend: Upward
 
-Step 87: Current number (n): 93940
-  - Ω(n): 0
-  - Decomposition of n: 93940 = Even number, no additive decomposition applied
-  - Collatz step: 93940 / 2 = 46970
-
-Step 88: Current number (n): 46970
-  - Ω(n): 0
-  - Decomposition of n: 46970 = Even number, no additive decomposition applied
-  - Collatz step: 46970 / 2 = 23485
-
-Step 89: Current number (n): 23485
-  - Ω(n): 4
+Step: Current odd number (n): 23485 (Ω=4)
   - Decomposition of n: 23485 = 16384 + (3 * 3 * 3 * 263)
-  - Collatz step: 3 * 23485 + 1 = 70456
+  - Next odd number (n'): 8807 (Ω=3)
+  - Ω-Trend: Downward
 
-Step 90: Current number (n): 70456
-  - Ω(n): 0
-  - Decomposition of n: 70456 = Even number, no additive decomposition applied
-  - Collatz step: 70456 / 2 = 35228
-
-Step 91: Current number (n): 35228
-  - Ω(n): 0
-  - Decomposition of n: 35228 = Even number, no additive decomposition applied
-  - Collatz step: 35228 / 2 = 17614
-
-Step 92: Current number (n): 17614
-  - Ω(n): 0
-  - Decomposition of n: 17614 = Even number, no additive decomposition applied
-  - Collatz step: 17614 / 2 = 8807
-
-Step 93: Current number (n): 8807
-  - Ω(n): 3
+Step: Current odd number (n): 8807 (Ω=3)
   - Decomposition of n: 8807 = 8192 + (3 * 5 * 41)
-  - Collatz step: 3 * 8807 + 1 = 26422
+  - Next odd number (n'): 13211 (Ω=3)
+  - Ω-Trend: Neutral
 
-Step 94: Current number (n): 26422
-  - Ω(n): 0
-  - Decomposition of n: 26422 = Even number, no additive decomposition applied
-  - Collatz step: 26422 / 2 = 13211
-
-Step 95: Current number (n): 13211
-  - Ω(n): 3
+Step: Current odd number (n): 13211 (Ω=3)
   - Decomposition of n: 13211 = 8192 + (3 * 7 * 239)
-  - Collatz step: 3 * 13211 + 1 = 39634
+  - Next odd number (n'): 19817 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 96: Current number (n): 39634
-  - Ω(n): 0
-  - Decomposition of n: 39634 = Even number, no additive decomposition applied
-  - Collatz step: 39634 / 2 = 19817
-
-Step 97: Current number (n): 19817
-  - Ω(n): 1
+Step: Current odd number (n): 19817 (Ω=1)
   - Decomposition of n: 19817 = 16384 + 3433
-  - Collatz step: 3 * 19817 + 1 = 59452
+  - Next odd number (n'): 14863 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 98: Current number (n): 59452
-  - Ω(n): 0
-  - Decomposition of n: 59452 = Even number, no additive decomposition applied
-  - Collatz step: 59452 / 2 = 29726
-
-Step 99: Current number (n): 29726
-  - Ω(n): 0
-  - Decomposition of n: 29726 = Even number, no additive decomposition applied
-  - Collatz step: 29726 / 2 = 14863
-
-Step 100: Current number (n): 14863
-  - Ω(n): 2
+Step: Current odd number (n): 14863 (Ω=2)
   - Decomposition of n: 14863 = 8192 + (7 * 953)
-  - Collatz step: 3 * 14863 + 1 = 44590
+  - Next odd number (n'): 22295 (Ω=2)
+  - Ω-Trend: Neutral
 
-Step 101: Current number (n): 44590
-  - Ω(n): 0
-  - Decomposition of n: 44590 = Even number, no additive decomposition applied
-  - Collatz step: 44590 / 2 = 22295
-
-Step 102: Current number (n): 22295
-  - Ω(n): 2
+Step: Current odd number (n): 22295 (Ω=2)
   - Decomposition of n: 22295 = 16384 + (23 * 257)
-  - Collatz step: 3 * 22295 + 1 = 66886
+  - Next odd number (n'): 33443 (Ω=5)
+  - Ω-Trend: Upward
 
-Step 103: Current number (n): 66886
-  - Ω(n): 0
-  - Decomposition of n: 66886 = Even number, no additive decomposition applied
-  - Collatz step: 66886 / 2 = 33443
-
-Step 104: Current number (n): 33443
-  - Ω(n): 5
+Step: Current odd number (n): 33443 (Ω=5)
   - Decomposition of n: 33443 = 32768 + (3 * 3 * 3 * 5 * 5)
-  - Collatz step: 3 * 33443 + 1 = 100330
+  - Next odd number (n'): 50165 (Ω=3)
+  - Ω-Trend: Downward
 
-Step 105: Current number (n): 100330
-  - Ω(n): 0
-  - Decomposition of n: 100330 = Even number, no additive decomposition applied
-  - Collatz step: 100330 / 2 = 50165
-
-Step 106: Current number (n): 50165
-  - Ω(n): 3
+Step: Current odd number (n): 50165 (Ω=3)
   - Decomposition of n: 50165 = 32768 + (3 * 3 * 1933)
-  - Collatz step: 3 * 50165 + 1 = 150496
+  - Next odd number (n'): 4703 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 107: Current number (n): 150496
-  - Ω(n): 0
-  - Decomposition of n: 150496 = Even number, no additive decomposition applied
-  - Collatz step: 150496 / 2 = 75248
-
-Step 108: Current number (n): 75248
-  - Ω(n): 0
-  - Decomposition of n: 75248 = Even number, no additive decomposition applied
-  - Collatz step: 75248 / 2 = 37624
-
-Step 109: Current number (n): 37624
-  - Ω(n): 0
-  - Decomposition of n: 37624 = Even number, no additive decomposition applied
-  - Collatz step: 37624 / 2 = 18812
-
-Step 110: Current number (n): 18812
-  - Ω(n): 0
-  - Decomposition of n: 18812 = Even number, no additive decomposition applied
-  - Collatz step: 18812 / 2 = 9406
-
-Step 111: Current number (n): 9406
-  - Ω(n): 0
-  - Decomposition of n: 9406 = Even number, no additive decomposition applied
-  - Collatz step: 9406 / 2 = 4703
-
-Step 112: Current number (n): 4703
-  - Ω(n): 1
+Step: Current odd number (n): 4703 (Ω=1)
   - Decomposition of n: 4703 = 4096 + 607
-  - Collatz step: 3 * 4703 + 1 = 14110
+  - Next odd number (n'): 7055 (Ω=2)
+  - Ω-Trend: Upward
 
-Step 113: Current number (n): 14110
-  - Ω(n): 0
-  - Decomposition of n: 14110 = Even number, no additive decomposition applied
-  - Collatz step: 14110 / 2 = 7055
-
-Step 114: Current number (n): 7055
-  - Ω(n): 2
+Step: Current odd number (n): 7055 (Ω=2)
   - Decomposition of n: 7055 = 4096 + (11 * 269)
-  - Collatz step: 3 * 7055 + 1 = 21166
+  - Next odd number (n'): 10583 (Ω=2)
+  - Ω-Trend: Neutral
 
-Step 115: Current number (n): 21166
-  - Ω(n): 0
-  - Decomposition of n: 21166 = Even number, no additive decomposition applied
-  - Collatz step: 21166 / 2 = 10583
-
-Step 116: Current number (n): 10583
-  - Ω(n): 2
+Step: Current odd number (n): 10583 (Ω=2)
   - Decomposition of n: 10583 = 8192 + (3 * 797)
-  - Collatz step: 3 * 10583 + 1 = 31750
+  - Next odd number (n'): 15875 (Ω=3)
+  - Ω-Trend: Upward
 
-Step 117: Current number (n): 31750
-  - Ω(n): 0
-  - Decomposition of n: 31750 = Even number, no additive decomposition applied
-  - Collatz step: 31750 / 2 = 15875
-
-Step 118: Current number (n): 15875
-  - Ω(n): 3
+Step: Current odd number (n): 15875 (Ω=3)
   - Decomposition of n: 15875 = 8192 + (3 * 13 * 197)
-  - Collatz step: 3 * 15875 + 1 = 47626
+  - Next odd number (n'): 23813 (Ω=3)
+  - Ω-Trend: Neutral
 
-Step 119: Current number (n): 47626
-  - Ω(n): 0
-  - Decomposition of n: 47626 = Even number, no additive decomposition applied
-  - Collatz step: 47626 / 2 = 23813
-
-Step 120: Current number (n): 23813
-  - Ω(n): 3
+Step: Current odd number (n): 23813 (Ω=3)
   - Decomposition of n: 23813 = 16384 + (17 * 19 * 23)
-  - Collatz step: 3 * 23813 + 1 = 71440
+  - Next odd number (n'): 4465 (Ω=3)
+  - Ω-Trend: Neutral
 
-Step 121: Current number (n): 71440
-  - Ω(n): 0
-  - Decomposition of n: 71440 = Even number, no additive decomposition applied
-  - Collatz step: 71440 / 2 = 35720
-
-Step 122: Current number (n): 35720
-  - Ω(n): 0
-  - Decomposition of n: 35720 = Even number, no additive decomposition applied
-  - Collatz step: 35720 / 2 = 17860
-
-Step 123: Current number (n): 17860
-  - Ω(n): 0
-  - Decomposition of n: 17860 = Even number, no additive decomposition applied
-  - Collatz step: 17860 / 2 = 8930
-
-Step 124: Current number (n): 8930
-  - Ω(n): 0
-  - Decomposition of n: 8930 = Even number, no additive decomposition applied
-  - Collatz step: 8930 / 2 = 4465
-
-Step 125: Current number (n): 4465
-  - Ω(n): 3
+Step: Current odd number (n): 4465 (Ω=3)
   - Decomposition of n: 4465 = 4096 + (3 * 3 * 41)
-  - Collatz step: 3 * 4465 + 1 = 13396
+  - Next odd number (n'): 3349 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 126: Current number (n): 13396
-  - Ω(n): 0
-  - Decomposition of n: 13396 = Even number, no additive decomposition applied
-  - Collatz step: 13396 / 2 = 6698
-
-Step 127: Current number (n): 6698
-  - Ω(n): 0
-  - Decomposition of n: 6698 = Even number, no additive decomposition applied
-  - Collatz step: 6698 / 2 = 3349
-
-Step 128: Current number (n): 3349
-  - Ω(n): 1
+Step: Current odd number (n): 3349 (Ω=1)
   - Decomposition of n: 3349 = 2048 + 1301
-  - Collatz step: 3 * 3349 + 1 = 10048
+  - Next odd number (n'): 157 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 129: Current number (n): 10048
-  - Ω(n): 0
-  - Decomposition of n: 10048 = Even number, no additive decomposition applied
-  - Collatz step: 10048 / 2 = 5024
-
-Step 130: Current number (n): 5024
-  - Ω(n): 0
-  - Decomposition of n: 5024 = Even number, no additive decomposition applied
-  - Collatz step: 5024 / 2 = 2512
-
-Step 131: Current number (n): 2512
-  - Ω(n): 0
-  - Decomposition of n: 2512 = Even number, no additive decomposition applied
-  - Collatz step: 2512 / 2 = 1256
-
-Step 132: Current number (n): 1256
-  - Ω(n): 0
-  - Decomposition of n: 1256 = Even number, no additive decomposition applied
-  - Collatz step: 1256 / 2 = 628
-
-Step 133: Current number (n): 628
-  - Ω(n): 0
-  - Decomposition of n: 628 = Even number, no additive decomposition applied
-  - Collatz step: 628 / 2 = 314
-
-Step 134: Current number (n): 314
-  - Ω(n): 0
-  - Decomposition of n: 314 = Even number, no additive decomposition applied
-  - Collatz step: 314 / 2 = 157
-
-Step 135: Current number (n): 157
-  - Ω(n): 1
+Step: Current odd number (n): 157 (Ω=1)
   - Decomposition of n: 157 = 128 + 29
-  - Collatz step: 3 * 157 + 1 = 472
+  - Next odd number (n'): 59 (Ω=3)
+  - Ω-Trend: Upward
 
-Step 136: Current number (n): 472
-  - Ω(n): 0
-  - Decomposition of n: 472 = Even number, no additive decomposition applied
-  - Collatz step: 472 / 2 = 236
-
-Step 137: Current number (n): 236
-  - Ω(n): 0
-  - Decomposition of n: 236 = Even number, no additive decomposition applied
-  - Collatz step: 236 / 2 = 118
-
-Step 138: Current number (n): 118
-  - Ω(n): 0
-  - Decomposition of n: 118 = Even number, no additive decomposition applied
-  - Collatz step: 118 / 2 = 59
-
-Step 139: Current number (n): 59
-  - Ω(n): 3
+Step: Current odd number (n): 59 (Ω=3)
   - Decomposition of n: 59 = 32 + (3 * 3 * 3)
-  - Collatz step: 3 * 59 + 1 = 178
+  - Next odd number (n'): 89 (Ω=2)
+  - Ω-Trend: Downward
 
-Step 140: Current number (n): 178
-  - Ω(n): 0
-  - Decomposition of n: 178 = Even number, no additive decomposition applied
-  - Collatz step: 178 / 2 = 89
-
-Step 141: Current number (n): 89
-  - Ω(n): 2
+Step: Current odd number (n): 89 (Ω=2)
   - Decomposition of n: 89 = 64 + (5 * 5)
-  - Collatz step: 3 * 89 + 1 = 268
+  - Next odd number (n'): 67 (Ω=1)
+  - Ω-Trend: Downward
 
-Step 142: Current number (n): 268
-  - Ω(n): 0
-  - Decomposition of n: 268 = Even number, no additive decomposition applied
-  - Collatz step: 268 / 2 = 134
-
-Step 143: Current number (n): 134
-  - Ω(n): 0
-  - Decomposition of n: 134 = Even number, no additive decomposition applied
-  - Collatz step: 134 / 2 = 67
-
-Step 144: Current number (n): 67
-  - Ω(n): 1
+Step: Current odd number (n): 67 (Ω=1)
   - Decomposition of n: 67 = 64 + 3
-  - Collatz step: 3 * 67 + 1 = 202
+  - Next odd number (n'): 101 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 145: Current number (n): 202
-  - Ω(n): 0
-  - Decomposition of n: 202 = Even number, no additive decomposition applied
-  - Collatz step: 202 / 2 = 101
-
-Step 146: Current number (n): 101
-  - Ω(n): 1
+Step: Current odd number (n): 101 (Ω=1)
   - Decomposition of n: 101 = 64 + 37
-  - Collatz step: 3 * 101 + 1 = 304
+  - Next odd number (n'): 19 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 147: Current number (n): 304
-  - Ω(n): 0
-  - Decomposition of n: 304 = Even number, no additive decomposition applied
-  - Collatz step: 304 / 2 = 152
-
-Step 148: Current number (n): 152
-  - Ω(n): 0
-  - Decomposition of n: 152 = Even number, no additive decomposition applied
-  - Collatz step: 152 / 2 = 76
-
-Step 149: Current number (n): 76
-  - Ω(n): 0
-  - Decomposition of n: 76 = Even number, no additive decomposition applied
-  - Collatz step: 76 / 2 = 38
-
-Step 150: Current number (n): 38
-  - Ω(n): 0
-  - Decomposition of n: 38 = Even number, no additive decomposition applied
-  - Collatz step: 38 / 2 = 19
-
-Step 151: Current number (n): 19
-  - Ω(n): 1
+Step: Current odd number (n): 19 (Ω=1)
   - Decomposition of n: 19 = 16 + 3
-  - Collatz step: 3 * 19 + 1 = 58
+  - Next odd number (n'): 29 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 152: Current number (n): 58
-  - Ω(n): 0
-  - Decomposition of n: 58 = Even number, no additive decomposition applied
-  - Collatz step: 58 / 2 = 29
-
-Step 153: Current number (n): 29
-  - Ω(n): 1
+Step: Current odd number (n): 29 (Ω=1)
   - Decomposition of n: 29 = 16 + 13
-  - Collatz step: 3 * 29 + 1 = 88
+  - Next odd number (n'): 11 (Ω=1)
+  - Ω-Trend: Neutral
 
-Step 154: Current number (n): 88
-  - Ω(n): 0
-  - Decomposition of n: 88 = Even number, no additive decomposition applied
-  - Collatz step: 88 / 2 = 44
-
-Step 155: Current number (n): 44
-  - Ω(n): 0
-  - Decomposition of n: 44 = Even number, no additive decomposition applied
-  - Collatz step: 44 / 2 = 22
-
-Step 156: Current number (n): 22
-  - Ω(n): 0
-  - Decomposition of n: 22 = Even number, no additive decomposition applied
-  - Collatz step: 22 / 2 = 11
-
-Step 157: Current number (n): 11
-  - Ω(n): 1
+Step: Current odd number (n): 11 (Ω=1)
   - Decomposition of n: 11 = 8 + 3
-  - Collatz step: 3 * 11 + 1 = 34
+  - Next odd number (n'): 17 (Ω=0)
+  - Ω-Trend: Downward
 
-Step 158: Current number (n): 34
-  - Ω(n): 0
-  - Decomposition of n: 34 = Even number, no additive decomposition applied
-  - Collatz step: 34 / 2 = 17
+Step: Current odd number (n): 17 (Ω=0)
+  - Decomposition of n: 17 = 16 + 1
+  - Next odd number (n'): 13 (Ω=1)
+  - Ω-Trend: Upward
 
-Step 159: Current number (n): 17
-  - Ω(n): 0
-  - Decomposition of n: 17 = 16 + 
-  - Collatz step: 3 * 17 + 1 = 52
-
-Step 160: Current number (n): 52
-  - Ω(n): 0
-  - Decomposition of n: 52 = Even number, no additive decomposition applied
-  - Collatz step: 52 / 2 = 26
-
-Step 161: Current number (n): 26
-  - Ω(n): 0
-  - Decomposition of n: 26 = Even number, no additive decomposition applied
-  - Collatz step: 26 / 2 = 13
-
-Step 162: Current number (n): 13
-  - Ω(n): 1
+Step: Current odd number (n): 13 (Ω=1)
   - Decomposition of n: 13 = 8 + 5
-  - Collatz step: 3 * 13 + 1 = 40
+  - Next odd number (n'): 5 (Ω=0)
+  - Ω-Trend: Downward
 
-Step 163: Current number (n): 40
-  - Ω(n): 0
-  - Decomposition of n: 40 = Even number, no additive decomposition applied
-  - Collatz step: 40 / 2 = 20
-
-Step 164: Current number (n): 20
-  - Ω(n): 0
-  - Decomposition of n: 20 = Even number, no additive decomposition applied
-  - Collatz step: 20 / 2 = 10
-
-Step 165: Current number (n): 10
-  - Ω(n): 0
-  - Decomposition of n: 10 = Even number, no additive decomposition applied
-  - Collatz step: 10 / 2 = 5
-
-Step 166: Current number (n): 5
-  - Ω(n): 0
-  - Decomposition of n: 5 = 4 + 
-  - Collatz step: 3 * 5 + 1 = 16
-
-Step 167: Current number (n): 16
-  - Ω(n): 0
-  - Decomposition of n: 16 = Even number, no additive decomposition applied
-  - Collatz step: 16 / 2 = 8
-
-Step 168: Current number (n): 8
-  - Ω(n): 0
-  - Decomposition of n: 8 = Even number, no additive decomposition applied
-  - Collatz step: 8 / 2 = 4
-
-Step 169: Current number (n): 4
-  - Ω(n): 0
-  - Decomposition of n: 4 = Even number, no additive decomposition applied
-  - Collatz step: 4 / 2 = 2
-
-Step 170: Current number (n): 2
-  - Ω(n): 0
-  - Decomposition of n: 2 = Even number, no additive decomposition applied
-  - Collatz step: 2 / 2 = 1
+Step: Current odd number (n): 5 (Ω=0)
+  - Decomposition of n: 5 = 4 + 1
+  - Next odd number (n'): 1 (Ω=0)
+  - Ω-Trend: Neutral
 
 --- Sequence reached 1. ---
-Total steps: 170
+
+--- Lyapunov Exponent Calculation Summary ---
+The Lyapunov-like exponent measures the average rate of change of the Ω-metric.
+It is calculated by summing the natural logarithm of the ratio of consecutive Ω-values.
+This sum is then divided by the number of transitions to get the average.
+For the sequence starting at 703, the average exponent is: -0.0000
+
+Analysis complete.
