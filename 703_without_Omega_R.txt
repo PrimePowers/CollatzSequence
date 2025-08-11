@@ -1,0 +1,251 @@
+--- Collatz-Analyse für Startnummer: 703 (Ohne Abzug von 2^k) ---
+
+Schritt 1: Ungerade Zahl (n): 703
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 703 = 19 * 37
+
+Schritt 2: Ungerade Zahl (n): 1055
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 1055 = 5 * 211
+
+Schritt 3: Ungerade Zahl (n): 1583
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 1583 = 1583
+
+Schritt 4: Ungerade Zahl (n): 2375
+  - Ω(n): 4 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 2375 = 5 * 5 * 5 * 19
+
+Schritt 5: Ungerade Zahl (n): 3563
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 3563 = 7 * 509
+
+Schritt 6: Ungerade Zahl (n): 5345
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 5345 = 5 * 1069
+
+Schritt 7: Ungerade Zahl (n): 4009
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 4009 = 19 * 211
+
+Schritt 8: Ungerade Zahl (n): 3007
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 3007 = 31 * 97
+
+Schritt 9: Ungerade Zahl (n): 4511
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 4511 = 13 * 347
+
+Schritt 10: Ungerade Zahl (n): 6767
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 6767 = 67 * 101
+
+Schritt 11: Ungerade Zahl (n): 10151
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 10151 = 10151
+
+Schritt 12: Ungerade Zahl (n): 15227
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 15227 = 15227
+
+Schritt 13: Ungerade Zahl (n): 22841
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 22841 = 7 * 13 * 251
+
+Schritt 14: Ungerade Zahl (n): 17131
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 17131 = 37 * 463
+
+Schritt 15: Ungerade Zahl (n): 25697
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 25697 = 7 * 3671
+
+Schritt 16: Ungerade Zahl (n): 19273
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 19273 = 19273
+
+Schritt 17: Ungerade Zahl (n): 14455
+  - Ω(n): 4 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 14455 = 5 * 7 * 7 * 59
+
+Schritt 18: Ungerade Zahl (n): 21683
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 21683 = 21683
+
+Schritt 19: Ungerade Zahl (n): 32525
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 32525 = 5 * 5 * 1301
+
+Schritt 20: Ungerade Zahl (n): 12197
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 12197 = 12197
+
+Schritt 21: Ungerade Zahl (n): 2287
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 2287 = 2287
+
+Schritt 22: Ungerade Zahl (n): 3431
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 3431 = 47 * 73
+
+Schritt 23: Ungerade Zahl (n): 5147
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 5147 = 5147
+
+Schritt 24: Ungerade Zahl (n): 7721
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 7721 = 7 * 1103
+
+Schritt 25: Ungerade Zahl (n): 5791
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 5791 = 5791
+
+Schritt 26: Ungerade Zahl (n): 8687
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 8687 = 7 * 17 * 73
+
+Schritt 27: Ungerade Zahl (n): 13031
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 13031 = 83 * 157
+
+Schritt 28: Ungerade Zahl (n): 19547
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 19547 = 11 * 1777
+
+Schritt 29: Ungerade Zahl (n): 29321
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 29321 = 109 * 269
+
+Schritt 30: Ungerade Zahl (n): 21991
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 21991 = 21991
+
+Schritt 31: Ungerade Zahl (n): 32987
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 32987 = 32987
+
+Schritt 32: Ungerade Zahl (n): 49481
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 49481 = 49481
+
+Schritt 33: Ungerade Zahl (n): 37111
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 37111 = 17 * 37 * 59
+
+Schritt 34: Ungerade Zahl (n): 55667
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 55667 = 55667
+
+Schritt 35: Ungerade Zahl (n): 83501
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 83501 = 11 * 7591
+
+Schritt 36: Ungerade Zahl (n): 31313
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 31313 = 173 * 181
+
+Schritt 37: Ungerade Zahl (n): 23485
+  - Ω(n): 4 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 23485 = 5 * 7 * 11 * 61
+
+Schritt 38: Ungerade Zahl (n): 8807
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 8807 = 8807
+
+Schritt 39: Ungerade Zahl (n): 13211
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 13211 = 11 * 1201
+
+Schritt 40: Ungerade Zahl (n): 19817
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 19817 = 7 * 19 * 149
+
+Schritt 41: Ungerade Zahl (n): 14863
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 14863 = 89 * 167
+
+Schritt 42: Ungerade Zahl (n): 22295
+  - Ω(n): 5 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 22295 = 5 * 7 * 7 * 7 * 13
+
+Schritt 43: Ungerade Zahl (n): 33443
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 33443 = 53 * 631
+
+Schritt 44: Ungerade Zahl (n): 50165
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 50165 = 5 * 79 * 127
+
+Schritt 45: Ungerade Zahl (n): 4703
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 4703 = 4703
+
+Schritt 46: Ungerade Zahl (n): 7055
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 7055 = 5 * 17 * 83
+
+Schritt 47: Ungerade Zahl (n): 10583
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 10583 = 19 * 557
+
+Schritt 48: Ungerade Zahl (n): 15875
+  - Ω(n): 4 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 15875 = 5 * 5 * 5 * 127
+
+Schritt 49: Ungerade Zahl (n): 23813
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 23813 = 23813
+
+Schritt 50: Ungerade Zahl (n): 4465
+  - Ω(n): 3 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 4465 = 5 * 19 * 47
+
+Schritt 51: Ungerade Zahl (n): 3349
+  - Ω(n): 2 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 3349 = 17 * 197
+
+Schritt 52: Ungerade Zahl (n): 157
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 157 = 157
+
+Schritt 53: Ungerade Zahl (n): 59
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 59 = 59
+
+Schritt 54: Ungerade Zahl (n): 89
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 89 = 89
+
+Schritt 55: Ungerade Zahl (n): 67
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 67 = 67
+
+Schritt 56: Ungerade Zahl (n): 101
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 101 = 101
+
+Schritt 57: Ungerade Zahl (n): 19
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 19 = 19
+
+Schritt 58: Ungerade Zahl (n): 29
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 29 = 29
+
+Schritt 59: Ungerade Zahl (n): 11
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 11 = 11
+
+Schritt 60: Ungerade Zahl (n): 17
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 17 = 17
+
+Schritt 61: Ungerade Zahl (n): 13
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 13 = 13
+
+Schritt 62: Ungerade Zahl (n): 5
+  - Ω(n): 1 (Anzahl der Primfaktoren von n)
+  - Primfaktorzerlegung: 5 = 5
+
+--- Sequenz hat 1 erreicht. ---

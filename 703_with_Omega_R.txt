@@ -1,0 +1,251 @@
+--- Collatz-Analyse für Startnummer: 703 (Mit Abzug von 2^k) ---
+
+Schritt 1: Ungerade Zahl (n): 703
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 703 = 512 + 191
+
+Schritt 2: Ungerade Zahl (n): 1055
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 1055 = 1024 + 31
+
+Schritt 3: Ungerade Zahl (n): 1583
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 1583 = 1024 + 13 * 43
+
+Schritt 4: Ungerade Zahl (n): 2375
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 2375 = 2048 + 3 * 109
+
+Schritt 5: Ungerade Zahl (n): 3563
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 3563 = 2048 + 3 * 5 * 101
+
+Schritt 6: Ungerade Zahl (n): 5345
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 5345 = 4096 + 1249
+
+Schritt 7: Ungerade Zahl (n): 4009
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 4009 = 2048 + 37 * 53
+
+Schritt 8: Ungerade Zahl (n): 3007
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 3007 = 2048 + 7 * 137
+
+Schritt 9: Ungerade Zahl (n): 4511
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 4511 = 4096 + 5 * 83
+
+Schritt 10: Ungerade Zahl (n): 6767
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 6767 = 4096 + 2671
+
+Schritt 11: Ungerade Zahl (n): 10151
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 10151 = 8192 + 3 * 653
+
+Schritt 12: Ungerade Zahl (n): 15227
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 15227 = 8192 + 3 * 5 * 7 * 67
+
+Schritt 13: Ungerade Zahl (n): 22841
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 22841 = 16384 + 11 * 587
+
+Schritt 14: Ungerade Zahl (n): 17131
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 17131 = 16384 + 3 * 3 * 83
+
+Schritt 15: Ungerade Zahl (n): 25697
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 25697 = 16384 + 67 * 139
+
+Schritt 16: Ungerade Zahl (n): 19273
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 19273 = 16384 + 3 * 3 * 3 * 107
+
+Schritt 17: Ungerade Zahl (n): 14455
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 14455 = 8192 + 6263
+
+Schritt 18: Ungerade Zahl (n): 21683
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 21683 = 16384 + 7 * 757
+
+Schritt 19: Ungerade Zahl (n): 32525
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 32525 = 16384 + 16141
+
+Schritt 20: Ungerade Zahl (n): 12197
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 12197 = 8192 + 3 * 3 * 5 * 89
+
+Schritt 21: Ungerade Zahl (n): 2287
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 2287 = 2048 + 239
+
+Schritt 22: Ungerade Zahl (n): 3431
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 3431 = 2048 + 3 * 461
+
+Schritt 23: Ungerade Zahl (n): 5147
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 5147 = 4096 + 1051
+
+Schritt 24: Ungerade Zahl (n): 7721
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 7721 = 4096 + 5 * 5 * 5 * 29
+
+Schritt 25: Ungerade Zahl (n): 5791
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 5791 = 4096 + 3 * 5 * 113
+
+Schritt 26: Ungerade Zahl (n): 8687
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 8687 = 8192 + 3 * 3 * 5 * 11
+
+Schritt 27: Ungerade Zahl (n): 13031
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 13031 = 8192 + 3 * 1613
+
+Schritt 28: Ungerade Zahl (n): 19547
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 19547 = 16384 + 3163
+
+Schritt 29: Ungerade Zahl (n): 29321
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 29321 = 16384 + 17 * 761
+
+Schritt 30: Ungerade Zahl (n): 21991
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 21991 = 16384 + 3 * 3 * 7 * 89
+
+Schritt 31: Ungerade Zahl (n): 32987
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 32987 = 32768 + 3 * 73
+
+Schritt 32: Ungerade Zahl (n): 49481
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 49481 = 32768 + 3 * 3 * 3 * 619
+
+Schritt 33: Ungerade Zahl (n): 37111
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 37111 = 32768 + 43 * 101
+
+Schritt 34: Ungerade Zahl (n): 55667
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 55667 = 32768 + 3 * 17 * 449
+
+Schritt 35: Ungerade Zahl (n): 83501
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 83501 = 65536 + 5 * 3593
+
+Schritt 36: Ungerade Zahl (n): 31313
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 31313 = 16384 + 14929
+
+Schritt 37: Ungerade Zahl (n): 23485
+  - Ω(n): 4 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 23485 = 16384 + 3 * 3 * 3 * 263
+
+Schritt 38: Ungerade Zahl (n): 8807
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 8807 = 8192 + 3 * 5 * 41
+
+Schritt 39: Ungerade Zahl (n): 13211
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 13211 = 8192 + 3 * 7 * 239
+
+Schritt 40: Ungerade Zahl (n): 19817
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 19817 = 16384 + 3433
+
+Schritt 41: Ungerade Zahl (n): 14863
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 14863 = 8192 + 7 * 953
+
+Schritt 42: Ungerade Zahl (n): 22295
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 22295 = 16384 + 23 * 257
+
+Schritt 43: Ungerade Zahl (n): 33443
+  - Ω(n): 5 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 33443 = 32768 + 3 * 3 * 3 * 5 * 5
+
+Schritt 44: Ungerade Zahl (n): 50165
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 50165 = 32768 + 3 * 3 * 1933
+
+Schritt 45: Ungerade Zahl (n): 4703
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 4703 = 4096 + 607
+
+Schritt 46: Ungerade Zahl (n): 7055
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 7055 = 4096 + 11 * 269
+
+Schritt 47: Ungerade Zahl (n): 10583
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 10583 = 8192 + 3 * 797
+
+Schritt 48: Ungerade Zahl (n): 15875
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 15875 = 8192 + 3 * 13 * 197
+
+Schritt 49: Ungerade Zahl (n): 23813
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 23813 = 16384 + 17 * 19 * 23
+
+Schritt 50: Ungerade Zahl (n): 4465
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 4465 = 4096 + 3 * 3 * 41
+
+Schritt 51: Ungerade Zahl (n): 3349
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 3349 = 2048 + 1301
+
+Schritt 52: Ungerade Zahl (n): 157
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 157 = 128 + 29
+
+Schritt 53: Ungerade Zahl (n): 59
+  - Ω(n): 3 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 59 = 32 + 3 * 3 * 3
+
+Schritt 54: Ungerade Zahl (n): 89
+  - Ω(n): 2 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 89 = 64 + 5 * 5
+
+Schritt 55: Ungerade Zahl (n): 67
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 67 = 64 + 3
+
+Schritt 56: Ungerade Zahl (n): 101
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 101 = 64 + 37
+
+Schritt 57: Ungerade Zahl (n): 19
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 19 = 16 + 3
+
+Schritt 58: Ungerade Zahl (n): 29
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 29 = 16 + 13
+
+Schritt 59: Ungerade Zahl (n): 11
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 11 = 8 + 3
+
+Schritt 60: Ungerade Zahl (n): 17
+  - Ω(n): 0 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 17 = 16 + 
+
+Schritt 61: Ungerade Zahl (n): 13
+  - Ω(n): 1 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 13 = 8 + 5
+
+Schritt 62: Ungerade Zahl (n): 5
+  - Ω(n): 0 (Anzahl der Primfaktoren des Rests)
+  - Additive Zerlegung: 5 = 4 + 
+
+--- Sequenz hat 1 erreicht. ---
